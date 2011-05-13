@@ -40,3 +40,6 @@
 [submodule "bundle/vim-makegreen"]
 	path = bundle/vim-makegreen
 	url = git://github.com/reinh/vim-makegreen.git
+[submodule "bundle/singlecompile"]
+	path = bundle/singlecompile
+	url = git://github.com/vim-scripts/SingleCompile.git
