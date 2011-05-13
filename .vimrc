@@ -1,11 +1,12 @@
 call pathogen#runtime_append_all_bundles()
-filetype plugin on
+filetype plugin indent on
 set expandtab
 set shiftwidth=2
 set softtabstop=2
 colorscheme wombat
-colorscheme mac_classic
+"colorscheme mac_classic
 set number
+set cursorline
 nmap <silent> <c-n> :NERDTreeToggle<CR>
 call SingleCompile#SetCompilerTemplate('coffee', 'coffee', 'coffee', 'coffee', '-c', '')
 call SingleCompile#ChooseCompiler('coffee', 'coffee')
