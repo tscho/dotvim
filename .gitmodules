@@ -43,3 +43,6 @@
 [submodule "bundle/singlecompile"]
 	path = bundle/singlecompile
 	url = https://github.com/vim-scripts/SingleCompile.git
+[submodule "bundle/coffeescript"]
+	path = bundle/coffeescript
+	url = https://github.com/kchmck/vim-coffee-script.git
